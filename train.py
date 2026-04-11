@@ -44,6 +44,6 @@ y_proba = model.predict_proba(X_test)[:,1]
 logacc = accuracy_score(y_test,y_logpred )
 confmatrix = classification_report(y_test, y_logpred)
 
-# print("{} {}".format( logacc, confmatrix))
+print("{} {}".format( logacc, confmatrix))
 
 joblib.dump(model, 'spam_detector.pkl')
