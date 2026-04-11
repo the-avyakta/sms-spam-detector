@@ -54,4 +54,7 @@ Post /Predict
 }
 ```
 
+## UI Screenshot
+![Live UI](assets/app.png)
+
 # Spread Love ❤ 
