@@ -13,15 +13,17 @@ I am using Logistic Regression and TfidfVectorizer.
 ## Model Performance 
 
 **Accuracy - 97.50%**   
+### Model Performance
 
-             precision    recall  f1-score   support
 
-        0       0.99      0.98      0.99       966
-        1       0.90      0.91      0.91       149
+| Class | Precision | Recall | F1-Score | Support |
+| :--- | :--- | :--- | :--- | :--- |
+| **0 (Ham)** | 0.99 | 0.98 | 0.99 | 966 |
+| **1 (Spam)** | 0.90 | 0.91 | 0.91 | 149 |
+| **Accuracy** | | | **0.97** | **1115** |
+| **Macro Avg** | 0.94 | 0.95 | 0.95 | 1115 |
+| **Weighted Avg** | 0.98 | 0.97 | 0.97 | 1115 |
 
-    accuracy                           0.97      1115
-   macro avg       0.94      0.95      0.95      1115
-weighted avg       0.98      0.97      0.97      1115
 
 ## Tech Stack 
 - python, FastAPI, Scikit-Learn, Streamlit
